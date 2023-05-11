@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 99082523-0aa9-42a7-b171-4562993a5ad9
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 0.5
+    UseNameServer: 1
+    FixedRegion: sa
+    Server: 
+    Port: 0
+    Protocol: 0
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: sa
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
+  - ChatMessage
+  - RPC_TEST
+  - RPC_PlayerPicksUpNewCard
+  - RPC_PlayerSetCard
+  - RPC_SetPlayerDeck
+  - RPC_Colocar
+  - RPC_loadDeck
+  - RPC_LoadDeck
+  - RPC_Mover
+  - RPC_Cadaver
+  - RPC_Union
+  - RPC_Recipiente
+  - RPC_Revelar
+  - RPC_Shuffle
+  - RPC_Ocultar
+  - RPC_Encarnar
+  - RPC_VerDeck
+  - RPC_UpdateButton
+  - RPC_AddDamage
+  - RPC_Marcar
+  - RPC_AddInfection
+  - RPC_SubstractDamage
+  - RPC_SubstractInfection
+  - RPC_startPlayer
+  - RPC_LoadSave
+  - RPC_LoadCard
+  - RPC_AddContador
+  - RPC_SubstractContador
+  - RPC_Awake
+  - RPC_UpdateButtonA
+  - RPC_LoadBothDeck
+  - RPC_DestroyAllCards
+  - RPC_Reset
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 1

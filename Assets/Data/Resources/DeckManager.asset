@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab03a490c4be5604fbcf11adf808269a, type: 3}
+  m_Name: DeckManager
+  m_EditorClassIdentifier: 
+  decks:
+  - identifier: 
+    cards:
+    - A-001
+    - A-009
+    - A-009
+    - A-001
+    - A-001
+    - '*A-015'
+  - identifier: Anillos
+    cards:
+    - A-001
+    - '*A-009'
+  - identifier: Deckeo
+    cards:
+    - A-001
+    - A-001
+    - A-001
+  - identifier: Deckeo Estrella
+    cards:
+    - A-001
+    - A-001
+    - A-001
+    - A-008
+    - A-008
+    - A-008
+    - A-010
+    - A-010
+    - A-010
+    - A-027
+    - A-027
+    - A-027
+    - A-032
+    - A-032
+    - A-032
+    - A-038
+    - A-038
+    - A-038
+    - A-043
+    - A-043
+    - A-054
+    - A-054
+    - A-067
+    - A-067
+    - A-095
+    - A-104
+    - A-104
+    - A-104
+    - A-110
+    - A-110
+    - A-110
+    - A-123
+    - A-127
+    - A-127
+    - A-140
+    - A-140
+    - K-010
+    - K-010
+    - K-010
+    - A-083
+  - identifier: Golem
+    cards:
+    - A-027
+    - A-027
+    - A-027
+    - A-029
+    - A-047
+    - A-047
+    - A-047
+    - A-049
+    - A-050
+    - A-050
+    - A-061
+    - A-061
+    - A-061
+    - A-062
+    - A-062
+    - A-062
+    - A-067
+    - A-067
+    - A-067
+    - A-076
+    - A-090
+    - A-095
+    - A-097
+    - A-104
+    - A-143
+    - A-143
+    - A-143
+    - A-150
+    - A-150
+    - A-155
+    - A-155
+    - A-156
+    - A-156
+    - A-156
+    - A-157
+    - A-157
+    - A-157
+    - A-034
+    - A-034
+    - A-034
+  - identifier: Sabana Blanca
+    cards:
+    - A-017
+    - A-017
+    - A-017
+    - A-028
+    - A-028
+    - A-028
+    - A-029
+    - A-036
+    - A-045
+    - A-054
+    - A-054
+    - A-075
+    - A-077
+    - A-077
+    - A-077
+    - A-083
+    - A-095
+    - A-102
+    - A-109
+    - A-123
+    - A-123
+    - A-137
+    - A-137
+    - A-137
+    - A-147
+    - A-147
+    - A-147
+    - A-148
+    - A-148
+    - A-149
+    - A-149
+    - A-152
+    - A-153
+    - A-153
+    - A-153
+    - A-098
+    - A-124
+    - A-048
+    - A-048
+    - A-048
+  - identifier: Titanio
+    cards:
+    - A-001
+    - A-001
+    - A-001
+    - A-009
+    - A-009
+    - A-009
+    - A-022
+    - A-022
+    - A-022
+    - A-027
+    - A-027
+    - A-027
+    - A-033
+    - A-033
+    - A-033
+    - A-060
+    - A-060
+    - A-060
+    - A-066
+    - A-066
+    - A-089
+    - A-089
+    - A-089
+    - A-093
+    - A-096
+    - A-101
+    - A-101
+    - A-138
+    - A-158
+    - A-158
+    - A-158
+    - A-124
+    - A-129
+    - A-129
+    - A-048
+    - A-048
+    - A-137
+    - A-137
+    - A-137
+    - A-083
+    - A-083
+    - A-095
+  activeDeck: Sabana Blanca

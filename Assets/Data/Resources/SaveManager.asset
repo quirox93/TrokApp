@@ -1,0 +1,732 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf8e1168f4c25804f877f18078b3150f, type: 3}
+  m_Name: SaveManager
+  m_EditorClassIdentifier: 
+  card_ids:
+  - A-016
+  - A-016
+  - A-016
+  - A-050
+  - A-050
+  - A-050
+  - A-073
+  - A-073
+  - A-073
+  - A-046
+  - A-046
+  - A-046
+  - K-008
+  - A-058
+  - A-058
+  - A-058
+  - A-017
+  - A-017
+  - A-017
+  - A-048
+  - A-098
+  - A-098
+  - A-112
+  - A-112
+  - A-107
+  - A-137
+  - A-137
+  - A-137
+  - A-052
+  - A-052
+  - A-036
+  - A-028
+  - A-028
+  - A-083
+  - A-083
+  - A-102
+  - A-095
+  - A-003
+  - A-003
+  - A-003
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  positions:
+  - zone4,v,3,1,0
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - zone3,h,0,0,3
+  - Hands Grid
+  - Deck1
+  - DeckInt1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Hands Grid
+  - Deck1
+  - Deck1
+  - Deck1
+  - DeckInt1
+  - DeckInt1
+  - DeckInt1
+  - DeckInt1
+  - DeckInt1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Hands Grid
+  - Deck1
+  - DeckInt1
+  - DeckInt1
+  - DeckInt1
+  - DeckInt1
+  - Deck1
+  - Deck1
+  - Deck1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  decks:
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - DeckInt1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - DeckInt1
+  - DeckInt1
+  - DeckInt1
+  - DeckInt1
+  - DeckInt1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - Deck1
+  - DeckInt1
+  - DeckInt1
+  - DeckInt1
+  - DeckInt1
+  - Deck1
+  - Deck1
+  - Deck1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  hands:
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - Hands Grid
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  sepulturas:
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - Sepultura
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  recursos:
+  - 30
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 30
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40705058c1fd54441898a0cae2975e26, type: 3}
+  m_Name: E-055
+  m_EditorClassIdentifier: 
+  artSprite: {fileID: 21300000, guid: a5df0912cb696e0419eeae6229fa67b0, type: 3}
+  nombre: Flautista de hamelin - Interprete del caos
+  cardType: Intangible
+  cardSubType: Entidad
+  cardSubType2: Encarnar
+  color: 
+  especie: Demonio
+  limite: 3
+  expancion:
+  - Exodo
+  habilidad: {fileID: 0}
